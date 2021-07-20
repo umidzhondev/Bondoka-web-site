@@ -24,6 +24,10 @@ body {
 .left-100 {
   right: -100% !important;
 }
+@font-face{
+  src: url("../Font/Poppins-Medium.ttf");
+  font-family: Poppins;
+}
 
 /* * Header section styles */
 .header {
