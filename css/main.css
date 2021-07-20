@@ -36,6 +36,7 @@ body {
   position: fixed;
   line-height: 70px;
   width: 100%;
+  z-index: 10000;
 }
 .header-scrool-bg{
   transition: .5s ease;
