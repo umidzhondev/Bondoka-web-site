@@ -1,0 +1,1001 @@
+@media (max-width: 1200px) {
+  /** Header section styles  */
+  .navbar__brand > img {
+    margin-left: 0 !important;
+  }
+  .navbar__brand-title {
+    padding-left: 10px !important;
+  }
+  /** Header section styles end */
+
+  /** Home section styles */
+  .home__info-title {
+    font-size: 42px;
+  }
+  /** Home section styles end */
+
+  /** Services section styles */
+  .services__subtitle {
+    padding: 5px 7px;
+  }
+  .services__description {
+    width: 64%;
+  }
+  .services__card {
+    margin: 0;
+    height: 390px;
+  }
+  .services__card-title {
+    font-size: 19px;
+  }
+  /** Services section styles end */
+
+  /* * Team section styles */
+
+  .team__card-img img {
+    width: 480px;
+  }
+  .team__card-subtitle {
+    padding: 5px 0;
+    font-size: 18px;
+  }
+  .team__card-title {
+    font-size: 30px;
+  }
+  .team__card-description {
+    padding-top: 20px;
+  }
+  /* * Team section styles end */
+
+  /* * Trial section styles */
+  .trial__content-img img {
+    width: 550px;
+  }
+  .trial__info-subtitle {
+    font-size: 18px;
+  }
+  .trial__info-title {
+    font-size: 28px;
+  }
+  .input i {
+    left: 9%;
+  }
+  /* * Trial section styles end */
+
+  /* * Works sectioj styles*/
+  .works__description {
+    width: 62%;
+  }
+  .works__card {
+    margin: 0;
+  }
+  /* * Works sectioj styles end*/
+
+  /** Feature section styles */
+  .feature__description {
+    width: 64%;
+    margin-top: 10px;
+  }
+  .feature__main .row {
+    display: flex;
+    align-items: center;
+  }
+  .feature__main-card {
+    height: 140px;
+  }
+  .feature__main-card__img img {
+    height: 80px;
+    width: 80px;
+  }
+  .feature__main-card__title {
+    font-size: 19px;
+    margin-top: 5px;
+  }
+  .feature__main-card__description {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  /** Feature section styles end */
+
+  /* * Pricing section styles */
+  .pricing__description {
+    width: 64%;
+  }
+  .pricing__card {
+    padding: 0 50px;
+  }
+  /* * Pricing section styles end */
+
+  /** Contact sectio styles */
+  .contact__subtitle {
+    width: 24%;
+    font-size: 21px;
+  }
+  .contact__description {
+    width: 64%;
+  }
+  .contact__card-title {
+    color: #000;
+  }
+  .contact__card-img img {
+    margin: 0;
+    margin-top: 15px;
+  }
+  /** Contact sectio styles end */
+}
+
+@media (max-width: 991px) {
+  /* * Header section styles */
+  .header-navigation {
+    flex-direction: column;
+    position: fixed;
+    top: 0%;
+    right: -100%;
+    width: 40%;
+    height: 100vh !important;
+    background: rgb(22, 26, 22);
+    padding-top: 10px;
+    display: block;
+    align-items: center;
+    padding-right: 110px;
+    line-height: 40px;
+    z-index: 100000;
+    color: #fff;
+  }
+  .mt-2 {
+    padding-top: 10px;
+  }
+  .fa-bars {
+    display: inline-block !important;
+  }
+  .header__navigation-item {
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+  }
+  .header__navigation-link {
+    color: #fff;
+  }
+  .fa-window-close {
+    display: inline-block !important;
+    position: relative;
+    top: 1%;
+    left: 15%;
+    margin-top: 20px;
+    z-index: 101 !important;
+    color: #fff;
+  }
+  .toggle-menu {
+    margin-right: 4rem;
+  }
+  /* * Header section styles end */
+
+  /** Home section styles */
+  .home {
+    padding-bottom: 0;
+  }
+  .home__content-info {
+    justify-content: center;
+    align-items: center;
+  }
+  .home__info-description {
+    text-align: center;
+  }
+  .home__info-title {
+    text-align: center;
+  }
+  .home-btn {
+    margin: 0 1rem;
+  }
+  .home__content-img {
+    text-align: center;
+  }
+
+  /** Home section styles end */
+
+  /* * Partners section styles */
+  .partners {
+    padding-top: 50px;
+  }
+  .partners > .container > .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .partners > .container > .row > .col-md-10 > img {
+    margin: 0 12px;
+  }
+  /* * Partners section styles  end*/
+
+  /* * Services section styles */
+  .services {
+    margin-top: 70px;
+  }
+  .services__subtitle {
+    width: 32%;
+    padding: 7px;
+    font-size: 1.5rem;
+  }
+  .services__title {
+    padding-bottom: 10px;
+  }
+  .services__description {
+    width: 83%;
+    margin-bottom: 60px;
+  }
+  .services__card {
+    height: 300px;
+    margin-top: 30px;
+  }
+  .services__card-title {
+    font-size: 19px;
+  }
+  .services__cards .row {
+    justify-content: center;
+  }
+  .services__card-img {
+    padding: 4px 5px;
+  }
+  .services__card-description {
+    font-size: 14px;
+    padding: 0;
+  }
+  /* * Services section styles end */
+
+  /* * Team section styles */
+  .team {
+    margin-top: 30px;
+  }
+  .team__card-img {
+    text-align: center;
+  }
+  .team__card-info {
+    align-items: center;
+  }
+  .team__card-title {
+    text-align: center;
+  }
+  .team__card-description {
+    text-align: center;
+  }
+  .order-element {
+    order: 5;
+  }
+  .team__content .row .col-md-12 {
+    margin-top: 30px;
+  }
+  /* * Team section styles end */
+
+  /* * Trial section styles */
+  .trial__content-img {
+    text-align: center;
+  }
+  .trial__content-img img {
+    padding: 34px 0px 0 0;
+    width: 450px;
+  }
+  .trial__content-info {
+    align-items: center;
+    justify-content: center;
+  }
+  .trial__info-description {
+    text-align: center;
+  }
+  .form {
+    margin-bottom: 20px;
+  }
+  .input i {
+    left: 7%;
+  }
+  .form__sub {
+    text-align: center;
+  }
+  /* * Trial section styles end */
+
+  /** Works section styles */
+  .works {
+    margin-top: 35px;
+  }
+  .works__subtitle {
+    width: 26%;
+  }
+  .works__title {
+    margin-bottom: 10px;
+  }
+  .works__card {
+    margin-top: 26px;
+  }
+  .works__cards {
+    margin-top: 30px;
+  }
+  /** Works section styles end */
+
+  /* * Feature section styles */
+  .feature__subtitle {
+    width: 26%;
+  }
+  .feature__description {
+    width: 88%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .feature__main .row {
+    justify-content: center;
+    align-items: baseline;
+  }
+  .feature__main-card {
+    width: 90%;
+  }
+  .feature__main-cards {
+    align-items: center;
+  }
+  .feature__main-img {
+    text-align: center;
+  }
+  .feature__main-img img {
+    width: 500px;
+  }
+  /* * Feature section styles end */
+
+  /* * Pricing section styles */
+  .pricing {
+    padding-bottom: 15px;
+  }
+  .pricing__subtitle {
+    width: 26%;
+  }
+  .pricing__description {
+    width: 88%;
+    margin-bottom: 30px;
+  }
+  .pricing__card {
+    margin: 14px 0;
+    height: 460px;
+  }
+  .pricing__card-ps {
+    margin-bottom: 30px;
+  }
+  .pricing__card-btn button {
+    padding: 15px 50px;
+  }
+  .pricing__card-title {
+    padding: 30px 0 7px 0;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #111;
+    font-family: Poppins;
+  }
+  /* * Pricing section styles end */
+
+  /** Contact section styles */
+  .contact__card {
+    margin: 0;
+  }
+  .contact__subtitle {
+    width: 34%;
+  }
+  .contact__description {
+    width: 88%;
+    margin-bottom: 20px;
+  }
+  .contact__card-img img {
+    width: 40%;
+  }
+  .contact__card-description {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .title2 {
+    font-size: 30px;
+  }
+  .slide-btn {
+    margin: 0;
+    margin: 0 8px;
+  }
+  .contact__banner-btn button {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 15px 35px;
+    background: crimson;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 40px;
+  }
+  .contact__banner {
+    margin: 60px 0;
+  }
+  .contact__about-description {
+    width: 61%;
+  }
+  .logo-title {
+    font-size: 41px;
+  }
+  .contact__main-about {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contact__about-description {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .icon {
+    width: 54px;
+    position: relative;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-networks a i {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  /** Contact section styles end */
+}
+
+@media (max-width: 767px) {
+  /** Header section styles  */
+  .toggle-menu {
+    margin-right: 0rem;
+  }
+  .header-navigation {
+    width: 50%;
+  }
+  /** Header section styles end  */
+
+  /* * Home section styles */
+  .home__content-img {
+    text-align: center;
+  }
+  .home__content-img img {
+    width: 550px;
+  }
+  /* * Home section styles end */
+
+  /* * Partners section styles */
+  .partners > .container > .row > .col-md-10 {
+    text-align: center;
+  }
+  /* * Partners section styles end */
+
+  /* * Services section styles */
+  .services__card-description {
+    font-size: 19px;
+  }
+  .services__card-title {
+    font-size: 23px;
+  }
+  /* * Services section styles end */
+
+  /* * Team section styles */
+  .team__card-description {
+    padding-top: 15px;
+    width: 100%;
+  }
+  /* * Team section styles end */
+
+  /* * Trial section styles */
+  .trial__content-info {
+    padding-left: 0;
+  }
+  .trial__content-img img {
+    width: 350px;
+  }
+  .trial__info-description {
+    padding-top: 10px;
+    width: 100%;
+  }
+  /* * Trial section styles end */
+
+  /* * Works section styles */
+  .works__subtitle {
+    width: 34%;
+  }
+  .works__description {
+    width: 100%;
+  }
+  .works__card-img {
+    text-align: center;
+  }
+  .works__card-img img {
+    width: 75%;
+  }
+  .works__card-description {
+    font-size: 1.1rem;
+  }
+  .works__card-title {
+    font-size: 1.5rem;
+    color: #111;
+  }
+  /* * Works section styles end */
+
+  /** Feature section styles */
+  .feature__subtitle {
+    width: 32%;
+  }
+  .feature__description {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .feature__main-card {
+    height: 150px;
+  }
+  .feature__main-img {
+    margin-top: 10px;
+  }
+  /** Feature section styles end */
+
+  /* * Pricing section styles */
+  .pricing__subtitle {
+    width: 32%;
+  }
+  .pricing__description {
+    font-size: 18px;
+    width: 100%;
+  }
+  /* * Pricing section styles end */
+
+  /* * Contact section styles */
+  .contact__subtitle {
+    width: 43%;
+  }
+  .contact__description {
+    width: 100%;
+  }
+  .contact__card-description {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .contact__card {
+    margin: 15px 0;
+  }
+  .contact__banner-info {
+    align-items: center;
+  }
+  .contact__banner-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact__banner-btn button {
+    position: static;
+  }
+  .contact__about-description {
+    width: 100%;
+  }
+  .mt20 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  /* * Contact section styles end */
+}
+
+@media (max-width: 576px) {
+  /* * Header section styles */
+  .header-navigation {
+    width: 60% !important;
+  }
+  .header__navigation-item {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .header__navigation-link {
+    font-size: 1rem !important;
+  }
+  .navbar__brand-title {
+    font-size: 1.5rem;
+  }
+  .fa-bars {
+    display: inline-block !important;
+  }
+  .header__navbar {
+    justify-content: baseline !important;
+  }
+  /* * Header section styles end */
+
+  /* * Home section styles */
+  .home__info-description {
+    font-size: 15px;
+  }
+  .home__info-title {
+    font-size: 32px;
+  }
+  .home-btn {
+    padding: 20px 30px;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+  .home__content-img img {
+    object-fit: cover;
+    width: 400px;
+  }
+  /* * Home section styles end */
+
+  /* * Partners section styles */
+  .partners {
+    padding-top: 30px;
+  }
+  /* * Partners section styles end */
+
+  /* * Services section styles */
+  .services__subtitle {
+    width: 57%;
+  }
+  .services__title {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .services__description {
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .services__card-description {
+    font-size: 15px;
+    width: 100%;
+  }
+  .services__cards {
+    width: 90%;
+  }
+  .services__card-title {
+    font-size: 19px;
+  }
+  /* * Services section styles end */
+
+  /* * Team section styles */
+  .team__card-subtitle {
+    width: 53%;
+  }
+  .team__card-title {
+    font-size: 1.5rem;
+  }
+  .team__card-description {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .team__card-btn button {
+    padding: 13px 40px;
+    font-size: 16px;
+  }
+  .team__card-img img {
+    width: 310px;
+  }
+  /* * Team section styles end */
+
+  /* * Trial section styles */
+  .trial {
+    width: 100%;
+  }
+  .trial__content-img img {
+    width: 300px;
+  }
+  .trial__info-subtitle {
+    width: 56%;
+  }
+  .trial__info-title {
+    font-size: 1.5rem;
+  }
+  .trial__info-description {
+    font-size: 16px;
+  }
+  .input i {
+    left: 10%;
+  }
+  .form__sub button {
+    margin: 0;
+    margin: 15px 0;
+    padding: 11px 28px;
+  }
+  /* * Trial section styles end */
+
+  /** Works section styles */
+  .works__subtitle {
+    width: 45%;
+  }
+  .works__title {
+    font-size: 1.5rem;
+  }
+  .works__description {
+    font-size: 15px;
+  }
+  .works__cards {
+    width: 90%;
+  }
+  .works__card-description {
+    font-size: 1rem;
+  }
+  .works__card {
+    height: 300px;
+  }
+  /** Works section styles end */
+
+  /* * Feature section styles */
+  .feature__subtitle {
+    width: 42%;
+  }
+  .feature__title {
+    font-size: 1.5rem;
+  }
+  .feature__description {
+    font-size: 15px;
+  }
+  .feature__main-cards {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .feature__main-card {
+    width: 90%;
+    height: 160px;
+  }
+  .feature__main-card__img img {
+    width: 60px;
+  }
+  .feature__main-card__title {
+    font-size: 16px;
+  }
+  .feature__main-card__description {
+    font-size: 14px;
+  }
+  .feature__main-img img {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* * Feature section styles end */
+
+  /** Pricing section styles */
+  .pricing__subtitle {
+    width: 43%;
+  }
+  .pricing__title {
+    font-size: 1.5rem;
+  }
+  .pricing__description {
+    font-size: 15px;
+  }
+  .pricing__cards {
+    width: 90%;
+  }
+  .pricing__card-btn button {
+    padding: 13px 48px;
+    font-size: 16px;
+  }
+  .pricing__card-cost {
+    font-size: 2.4rem;
+  }
+  .pricing__card {
+    height: 432px;
+  }
+  /** Pricing section styles end */
+
+  /* * Contact section styles */
+  .contact__subtitle {
+    width: 62%;
+    font-size: 19px;
+  }
+  .contact__title {
+    font-size: 1.5rem;
+  }
+  .contact__description {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .contact__cards {
+    width: 90%;
+  }
+  .contact__card-description {
+    font-size: 15px;
+  }
+  .title1 {
+    font-size: 22px;
+  }
+  .slide__btns{
+    display: none !important;
+  }
+  .title2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .contact__banner-btn button {
+    font-size: 16px;
+    padding: 14px 36px;
+  }
+  .contact__main .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .mt-20 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .to-down{
+    order: 10;
+  }
+  /* * Contact section styles end */
+}
+
+@media (max-width: 360px) {
+  /* * Header section styles */
+  .header-navigation {
+    width: 55% !important;
+  }
+  .navbar__brand-title {
+    font-size: 1.3rem !important;
+    padding-left: 0 !important;
+  }
+  /* * Header section styles end */
+
+  /* * Home section styles */
+  .home__info-subtitle h2 {
+    font-size: 16px;
+  }
+  .home__info-title {
+    font-size: 1.5rem;
+  }
+  .home__info-description {
+    font-size: 14px;
+  }
+  .home-btn {
+    padding: 19px 16px;
+    font-size: 14px;
+  }
+  .home__content-img img {
+    object-fit: cover;
+    width: 300px;
+  }
+  /* * Home section styles end */
+  
+  /* * Services section styles */
+  .services {
+    margin-top: 40px;
+  }
+  .services__subtitle {
+    font-size: 1rem;
+  }
+  .services__title {
+    font-size: 1.5rem;
+  }
+  .services__description {
+    font-size: 15px;
+  }
+  .services__card-title {
+    font-size: 17px;
+  }
+  .services__card-description {
+    font-size: 14px;
+  }
+  /* * Services section styles end */
+
+  /* *Trial section styles */
+  .trial__content-img img {
+    width: 280px;
+  }
+  .trial__info-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .trial__info-description {
+    font-size: 15px;
+  }
+  .input input {
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .input i {
+    left: 13%;
+  }
+  .form__sub button {
+    font-weight: 500;
+  }
+  /* *Trial section styles end */
+
+  /* * Works section styles */
+  .works__subtitle {
+    font-size: 16px;
+    width: 55%;
+  }
+  .works__description {
+    font-size: 14px;
+  }
+  .works__card {
+    height: 270px;
+  }
+  .works__card-description {
+    font-size: 15px;
+  }
+  .works__card-title {
+    font-size: 1.1rem;
+  }
+  /* * Works section styles end */
+
+  /* * Feature section styles */
+  .feature__subtitle {
+    width: 50%;
+    margin: 0 0 15px 0;
+  }
+  .feature__main-card__info {
+    text-align: center;
+  }
+  .feature__main-card {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .feature__main-card__img img {
+    width: 64px;
+  }
+  .feature__description {
+    margin-bottom: 20px;
+  }
+  .feature__main-card__title {
+    margin: 0;
+    padding: 0;
+  }
+  /* * Feature section styles end */
+
+  /* * Pricing section styles */
+  .pricing__subtitle {
+    width: 52%;
+  }
+  .pricing__card-cost{
+    font-size: 2rem;
+  }
+  .pricing__card-title{
+    font-size: 19px;
+    padding: 17px 0 7px 0;
+  }
+  .pricing__card-ps{
+    margin-bottom: 15px;
+  }
+  .pricing__card-ps p{
+    font-size: 14px;
+  }
+  .pricing__card{
+    height: 400px;
+  }
+  /* * Pricing section styles end */
+
+  /** Contact section styles */
+  .contact__subtitle{
+    font-size: 16px;
+  }
+  .contact__card-description{
+    font-size: 14px;
+  }
+  .contact__card-title{
+    font-size: 21px;
+  }
+  .contact__card{
+    margin: 10px 0;
+  }
+  .slide__btns{
+    display: none !important;
+  }
+  .title1{
+    font-size: 20px;
+  }
+  .title2{
+    font-size: 22px;
+  }
+  .logo-title{
+    font-size: 30px;
+  }
+  .contact__about-description{
+    font-size: 14px;
+  }
+  .icon{
+    margin: 0 4px;
+  }
+  .to-down{
+    order: 10;
+  }
+  /** Contact section styles */
+}
